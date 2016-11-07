@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0BF46EC1DA6336A003F453C /* ZLSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BF46EB1DA6336A003F453C /* ZLSplashViewController.m */; };
+		B0EE26F31D9A1CC200F02D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE26F21D9A1CC200F02D92 /* main.m */; };
+		B0EE26F61D9A1CC200F02D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE26F51D9A1CC200F02D92 /* AppDelegate.m */; };
+		B0EE26FC1D9A1CC200F02D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EE26FA1D9A1CC200F02D92 /* Main.storyboard */; };
+		B0EE26FE1D9A1CC200F02D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EE26FD1D9A1CC200F02D92 /* Assets.xcassets */; };
+		B0EE27011D9A1CC200F02D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EE26FF1D9A1CC200F02D92 /* LaunchScreen.storyboard */; };
+		B0EE270C1D9A1CC200F02D92 /* kaifanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE270B1D9A1CC200F02D92 /* kaifanTests.m */; };
+		B0EE27171D9A1CC200F02D92 /* kaifanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE27161D9A1CC200F02D92 /* kaifanUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0EE27081D9A1CC200F02D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0EE26E61D9A1CC200F02D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0EE26ED1D9A1CC200F02D92;
+			remoteInfo = kaifan;
+		};
+		B0EE27131D9A1CC200F02D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0EE26E61D9A1CC200F02D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0EE26ED1D9A1CC200F02D92;
+			remoteInfo = kaifan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0BF46EA1DA6336A003F453C /* ZLSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSplashViewController.h; sourceTree = "<group>"; };
+		B0BF46EB1DA6336A003F453C /* ZLSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSplashViewController.m; sourceTree = "<group>"; };
+		B0EE26EE1D9A1CC200F02D92 /* kaifan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaifan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EE26F21D9A1CC200F02D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0EE26F41D9A1CC200F02D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0EE26F51D9A1CC200F02D92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0EE26FB1D9A1CC200F02D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0EE26FD1D9A1CC200F02D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0EE27001D9A1CC200F02D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0EE27021D9A1CC200F02D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EE27071D9A1CC200F02D92 /* kaifanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaifanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EE270B1D9A1CC200F02D92 /* kaifanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kaifanTests.m; sourceTree = "<group>"; };
+		B0EE270D1D9A1CC200F02D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EE27121D9A1CC200F02D92 /* kaifanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaifanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EE27161D9A1CC200F02D92 /* kaifanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kaifanUITests.m; sourceTree = "<group>"; };
+		B0EE27181D9A1CC200F02D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0EE26EB1D9A1CC200F02D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EE27041D9A1CC200F02D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EE270F1D9A1CC200F02D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0EE26E51D9A1CC200F02D92 = {
+			isa = PBXGroup;
+			children = (
+				B0EE26F01D9A1CC200F02D92 /* kaifan */,
+				B0EE270A1D9A1CC200F02D92 /* kaifanTests */,
+				B0EE27151D9A1CC200F02D92 /* kaifanUITests */,
+				B0EE26EF1D9A1CC200F02D92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0EE26EF1D9A1CC200F02D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE26EE1D9A1CC200F02D92 /* kaifan.app */,
+				B0EE27071D9A1CC200F02D92 /* kaifanTests.xctest */,
+				B0EE27121D9A1CC200F02D92 /* kaifanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0EE26F01D9A1CC200F02D92 /* kaifan */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE26F41D9A1CC200F02D92 /* AppDelegate.h */,
+				B0EE26F51D9A1CC200F02D92 /* AppDelegate.m */,
+				B0EE26FA1D9A1CC200F02D92 /* Main.storyboard */,
+				B0EE26FD1D9A1CC200F02D92 /* Assets.xcassets */,
+				B0EE26FF1D9A1CC200F02D92 /* LaunchScreen.storyboard */,
+				B0EE27021D9A1CC200F02D92 /* Info.plist */,
+				B0EE26F11D9A1CC200F02D92 /* Supporting Files */,
+				B0BF46EA1DA6336A003F453C /* ZLSplashViewController.h */,
+				B0BF46EB1DA6336A003F453C /* ZLSplashViewController.m */,
+			);
+			path = kaifan;
+			sourceTree = "<group>";
+		};
+		B0EE26F11D9A1CC200F02D92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE26F21D9A1CC200F02D92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0EE270A1D9A1CC200F02D92 /* kaifanTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE270B1D9A1CC200F02D92 /* kaifanTests.m */,
+				B0EE270D1D9A1CC200F02D92 /* Info.plist */,
+			);
+			path = kaifanTests;
+			sourceTree = "<group>";
+		};
+		B0EE27151D9A1CC200F02D92 /* kaifanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE27161D9A1CC200F02D92 /* kaifanUITests.m */,
+				B0EE27181D9A1CC200F02D92 /* Info.plist */,
+			);
+			path = kaifanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0EE26ED1D9A1CC200F02D92 /* kaifan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EE271B1D9A1CC200F02D92 /* Build configuration list for PBXNativeTarget "kaifan" */;
+			buildPhases = (
+				B0EE26EA1D9A1CC200F02D92 /* Sources */,
+				B0EE26EB1D9A1CC200F02D92 /* Frameworks */,
+				B0EE26EC1D9A1CC200F02D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaifan;
+			productName = kaifan;
+			productReference = B0EE26EE1D9A1CC200F02D92 /* kaifan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0EE27061D9A1CC200F02D92 /* kaifanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EE271E1D9A1CC200F02D92 /* Build configuration list for PBXNativeTarget "kaifanTests" */;
+			buildPhases = (
+				B0EE27031D9A1CC200F02D92 /* Sources */,
+				B0EE27041D9A1CC200F02D92 /* Frameworks */,
+				B0EE27051D9A1CC200F02D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0EE27091D9A1CC200F02D92 /* PBXTargetDependency */,
+			);
+			name = kaifanTests;
+			productName = kaifanTests;
+			productReference = B0EE27071D9A1CC200F02D92 /* kaifanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0EE27111D9A1CC200F02D92 /* kaifanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EE27211D9A1CC200F02D92 /* Build configuration list for PBXNativeTarget "kaifanUITests" */;
+			buildPhases = (
+				B0EE270E1D9A1CC200F02D92 /* Sources */,
+				B0EE270F1D9A1CC200F02D92 /* Frameworks */,
+				B0EE27101D9A1CC200F02D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0EE27141D9A1CC200F02D92 /* PBXTargetDependency */,
+			);
+			name = kaifanUITests;
+			productName = kaifanUITests;
+			productReference = B0EE27121D9A1CC200F02D92 /* kaifanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0EE26E61D9A1CC200F02D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yip;
+				TargetAttributes = {
+					B0EE26ED1D9A1CC200F02D92 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B0EE27061D9A1CC200F02D92 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0EE26ED1D9A1CC200F02D92;
+					};
+					B0EE27111D9A1CC200F02D92 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0EE26ED1D9A1CC200F02D92;
+					};
+				};
+			};
+			buildConfigurationList = B0EE26E91D9A1CC200F02D92 /* Build configuration list for PBXProject "kaifan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0EE26E51D9A1CC200F02D92;
+			productRefGroup = B0EE26EF1D9A1CC200F02D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0EE26ED1D9A1CC200F02D92 /* kaifan */,
+				B0EE27061D9A1CC200F02D92 /* kaifanTests */,
+				B0EE27111D9A1CC200F02D92 /* kaifanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0EE26EC1D9A1CC200F02D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE27011D9A1CC200F02D92 /* LaunchScreen.storyboard in Resources */,
+				B0EE26FE1D9A1CC200F02D92 /* Assets.xcassets in Resources */,
+				B0EE26FC1D9A1CC200F02D92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EE27051D9A1CC200F02D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EE27101D9A1CC200F02D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0EE26EA1D9A1CC200F02D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE26F61D9A1CC200F02D92 /* AppDelegate.m in Sources */,
+				B0BF46EC1DA6336A003F453C /* ZLSplashViewController.m in Sources */,
+				B0EE26F31D9A1CC200F02D92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EE27031D9A1CC200F02D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE270C1D9A1CC200F02D92 /* kaifanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EE270E1D9A1CC200F02D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE27171D9A1CC200F02D92 /* kaifanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0EE27091D9A1CC200F02D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0EE26ED1D9A1CC200F02D92 /* kaifan */;
+			targetProxy = B0EE27081D9A1CC200F02D92 /* PBXContainerItemProxy */;
+		};
+		B0EE27141D9A1CC200F02D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0EE26ED1D9A1CC200F02D92 /* kaifan */;
+			targetProxy = B0EE27131D9A1CC200F02D92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0EE26FA1D9A1CC200F02D92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0EE26FB1D9A1CC200F02D92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0EE26FF1D9A1CC200F02D92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0EE27001D9A1CC200F02D92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0EE27191D9A1CC200F02D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0EE271A1D9A1CC200F02D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0EE271C1D9A1CC200F02D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kaifan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hinteen.kaifan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0EE271D1D9A1CC200F02D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kaifan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hinteen.kaifan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0EE271F1D9A1CC200F02D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kaifanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hinteen.kaifanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaifan.app/kaifan";
+			};
+			name = Debug;
+		};
+		B0EE27201D9A1CC200F02D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kaifanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hinteen.kaifanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaifan.app/kaifan";
+			};
+			name = Release;
+		};
+		B0EE27221D9A1CC200F02D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kaifanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hinteen.kaifanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kaifan;
+			};
+			name = Debug;
+		};
+		B0EE27231D9A1CC200F02D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kaifanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hinteen.kaifanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kaifan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0EE26E91D9A1CC200F02D92 /* Build configuration list for PBXProject "kaifan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EE27191D9A1CC200F02D92 /* Debug */,
+				B0EE271A1D9A1CC200F02D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EE271B1D9A1CC200F02D92 /* Build configuration list for PBXNativeTarget "kaifan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EE271C1D9A1CC200F02D92 /* Debug */,
+				B0EE271D1D9A1CC200F02D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EE271E1D9A1CC200F02D92 /* Build configuration list for PBXNativeTarget "kaifanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EE271F1D9A1CC200F02D92 /* Debug */,
+				B0EE27201D9A1CC200F02D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EE27211D9A1CC200F02D92 /* Build configuration list for PBXNativeTarget "kaifanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EE27221D9A1CC200F02D92 /* Debug */,
+				B0EE27231D9A1CC200F02D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0EE26E61D9A1CC200F02D92 /* Project object */;
+}
